@@ -99,7 +99,7 @@ function displayToDos() {
   // Tu código acá:
   let toDoContainer = document.getElementById('toDoContainer');
   toDoContainer.innerHTML=""
-  var arrToDos = buildToDos(toDoItems);
+  let arrToDos = buildToDos(toDoItems);
   arrToDos.forEach(element => {
     toDoContainer.appendChild(element)
   });
@@ -118,7 +118,7 @@ function displayToDos() {
 function addToDo() {
   // Tu código acá:
   let input = document.getElementById('toDoInput');
-  if(input !== ""){
+  if(input.value !== ""){
   let newToDo = new ToDo(toDoInput.value);
   toDoItems.push(newToDo);
   input.value = ''

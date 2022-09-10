@@ -1,1 +1,24 @@
 // Mixins acá
+.flex(@direction, @justify, @align){
+    display: flex;
+    flex-direction: @direction;
+    justify-content: @justify;
+    align-items: @align;
+}
+.img(){
+    height: 100%;
+}
+.button(@color,@bg-color){
+    border-radius: 10px;
+    color: @color;
+    background-color: @bg-color;
+    font-size: 16px;
+    padding: 10px 10px;
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid black;
+    &:hover{
+        background-color: @color;
+        color: @bg-color;
+    }
+}
