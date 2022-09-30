@@ -1,0 +1,28 @@
+.button {
+   align-self: flex-end ;
+   background-color: rgb(214, 80, 80);
+   color:white;
+   border-radius: 4px;
+   border: 1px solid rgb(214, 80, 80);
+   margin: 7px;
+}
+
+.button:hover {
+    color: rgb(214, 80, 80);
+    background-color: white;
+    border: 1px solid rgb(214, 80, 80);
+   }
+
+.valores {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 5px;
+    width: 300px;
+}
