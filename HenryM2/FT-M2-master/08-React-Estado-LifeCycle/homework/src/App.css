@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  min-width: 400px;
+  min-height: 700px;
+  background-size: cover;
+  background-position: center;
 }
 
 .row {
